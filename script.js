@@ -60,3 +60,14 @@ var compare5 = (num1 === num2 && num1 < num3)? "Yes" : "No";
 var compare6 = (num1 === num2 || num1 < num3)? "Yes" : "No";
 console.log(compare5);
 console.log(compare6);
+
+//Arrays
+//creating arrays method 1
+var myArray = ["steve","Alice","Jos",100,4785]
+
+//method2
+var myArray1 = new Array("ten",67,"stv")
+
+//getting items in an array
+
+console.log(myArray1[0])
