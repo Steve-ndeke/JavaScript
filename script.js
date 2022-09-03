@@ -48,7 +48,7 @@ console.log(compare2);         //we espect to be False since it is an absolute c
 var value1 = prompt("Enter the first digit");
 var value2 = prompt("Enter the second digit");
 
-var compare3 = value1 == value2;
+var compare3 = value1 === value2;
 console.log(compare3);
 
 // short cut of using if statements
@@ -63,11 +63,29 @@ console.log(compare6);
 
 //Arrays
 //creating arrays method 1
-var myArray = ["steve","Alice","Jos",100,4785]
+var myArray = ["steve","Alice","Jos",, "alice is the best of them all!!",
+100,4785];
 
 //method2
-var myArray1 = new Array("ten",67,"stv")
+var myArray1 = new Array("ten",67,"stv");
 
 //getting items in an array
 
-console.log(myArray1[0])
+console.log(myArray1[0]);
+
+//Exercise on arrays
+
+var thursday_plans = ["Cloud development","js","Testing","Training"];
+var progress = ["done","in progresss","to do"];
+
+var question1  = prompt("which task 0-3");
+var question2 = prompt("status 0 done 2 = inprogrss 3 = to do");
+
+console.log("today you will work on "+ thursday_plans[1] + " and the current status is = " + progress[1]);
+
+//getting the length of the an array
+console.log(thursday_plans.length)
+
+//adding an item in an array
+progress[2] = "take shower";
+
