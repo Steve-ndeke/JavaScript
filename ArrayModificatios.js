@@ -39,3 +39,20 @@ var newHolder = ["cat","dog","rabbit","bird"];
 var posIndex = newHolder.indexOf("egg");
 var response = (posIndex === -1)? "Item does not exist in the array" : posIndex ;
 console.log(response);
+
+
+//multi-dimensional arrays
+var Friends = [["stv","mose","master"],[1994,2015,2016]];
+console.log(Friends[0][0]);
+var q = prompt("which friend?");
+console.log(Friends);
+console.log("You met "+ Friends[0][q] + "in the year" + Friends[1][q]);
+
+//looping in arrays
+
+var stationary = ["books","pens","rubber"];
+
+for(var X in stationary){
+    console.log(X);
+    console.log(stationary[X]);
+}
